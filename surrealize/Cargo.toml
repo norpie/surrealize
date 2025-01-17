@@ -1,0 +1,15 @@
+[package]
+name = "surrealize"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "GPL-2.0"
+repository = "https://github.com/norpie/surrealize"
+description = "A procedural macro for generating helper struct variants for use with SurrealDB"
+keywords = ["surrealdb", "surrealize"]
+
+[dependencies]
+surrealize_derive = { version = "0.1.0", path = "../surrealize_derive" }
+
+[dev-dependencies]
+surrealize = { path = "../surrealize" }
