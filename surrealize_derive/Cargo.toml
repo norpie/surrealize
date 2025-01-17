@@ -2,7 +2,7 @@
 name = "surrealize_derive"
 version = "0.1.0"
 edition = "2021"
-readme = "README.md"
+readme = "../README.md"
 license = "GPL-2.0"
 repository = "https://github.com/norpie/surrealize"
 description = "The derive macro for the surrealize crate"
