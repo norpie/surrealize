@@ -9,7 +9,10 @@ description = "A procedural macro for generating helper struct variants for use 
 keywords = ["surrealdb", "surrealize"]
 
 [dependencies]
+serde = { version = "1.0.217", features = ["derive"] }
+surrealdb = "2.1.4"
 surrealize_derive = { version = "0.1.0", path = "../surrealize_derive" }
+uuid = "1.12.1"
 
 [dev-dependencies]
 surrealize = { path = "../surrealize" }
