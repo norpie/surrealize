@@ -1,6 +1,6 @@
 [package]
 name = "surrealize"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 readme = "../README.md"
 license = "GPL-2.0"
@@ -11,7 +11,7 @@ keywords = ["surrealdb", "surrealize"]
 [dependencies]
 serde = { version = "1.0.217", features = ["derive"] }
 surrealdb = "2.1.4"
-surrealize_derive = { version = "0.1.0", path = "../surrealize_derive" }
+surrealize_derive = { version = "0.1.1", path = "../surrealize_derive" }
 uuid = "1.12.1"
 
 [dev-dependencies]

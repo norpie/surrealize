@@ -30,16 +30,16 @@ pub fn wrap(input: TokenStream) -> TokenStream {
             let field_type = &field.ty;
             let Some(name) = &field.ident else {
                 return quote! {
-                        #field_name: #field_type
+                        pub #field_name: #field_type
                 };
             };
             if name != "id" {
                 return quote! {
-                        #field_name: #field_type
+                        pub #field_name: #field_type
                 };
             }
             quote! {
-                id: surrealdb::sql::Thing
+                pub id: surrealdb::sql::Thing
             }
         });
         quote! { #(#wrapped_fields,)* }

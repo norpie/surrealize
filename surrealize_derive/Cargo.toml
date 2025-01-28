@@ -1,6 +1,6 @@
 [package]
 name = "surrealize_derive"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 readme = "../README.md"
 license = "GPL-2.0"
